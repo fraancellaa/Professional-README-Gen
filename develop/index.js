@@ -1,62 +1,62 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const util = require('util');
 const generateMarkdown = require('./utils/generateMarkdown.js')
 
 // TODO: Create an array of questions for user input
 const questions = [
     {
         type: 'input',
-        message: 'What is the name of repository? (Required)',
-        name: 'title'
+        name: 'title',
+        message: 'What is the name of repository? (Required)'
     },
     {
         type: 'input',
-        message: 'Provide a description of the repository (Required)',
-        name: 'description'
+        name: 'description',
+        message: 'Provide a description of the repository (Required)'
     },
     {
         type: 'input',
-        message: 'Describe the installation instructions.',
-        name: 'install'
+        name: 'install',
+        message: 'Describe the installation instructions.'
     },
     {
         type: 'input',
-        message: 'Describe the usage information.',
-        name: 'Usage'
+        name: 'usage',
+        message: 'Describe the usage information.'
     },
     {
-        type: 'input',
-        message: 'Can the project be tested? How?.',
-        name: 'test'
-    },
-    {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'Was a license used for this project?, If so, select an option.',
-        choices: [
-            'MIT',
-            'None',
-            'Apache 2.0'
-        ],
+        choices: ['MIT', 'None', 'Apache 2.0'],
+    },
+    {
+        type: 'contribute',
+        name: 'contribution',
+        message: 'Can others contribute?'
     },
     {
         type: 'input',
-        message: 'Enter your GitHub username. (Required)',
-        type: 'Github'
+        name: 'test',
+        message: 'Can the project be tested? How?.'
     },
     {
         type: 'input',
-        message: 'Provide your email-address.',
-        input: "Email"
+        name: 'screenshotjs',
+        message: 'Please also provide a screenshot.'
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Enter your GitHub username. (Required)'
+    },
+    {
+        type: 'input',
+        name: "email",
+        message: 'Provide your email-address.'
     },
     
-    {
-        type: 'input',
-        message: 'Please also provide a screenshot.',
-        name: 'screenshotjs'
-    },
 ];
 
 // Prompt user to questions
@@ -80,7 +80,7 @@ prompt = () => {
 }
 
 // TODO: Create a function to write README file
-const writeToFile = fileContent => {
+const writeFile = fileContent => {
     return new Promise((resolve, reject) => {
         fs.writeFile('your-README.md', fileContent, err => {
             if(err) {
