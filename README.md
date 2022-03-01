@@ -25,3 +25,7 @@ This app is a command-line application that runs using Node.js. The point of the
 4. Youtube
 5. Teacher Assistants: Jocelyn Remington, Tim Sherry, Jordan Masone, Cristian Custodio.
 6. Instructor: Felicia O'Garro
+
+# License
+
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
