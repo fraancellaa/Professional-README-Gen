@@ -3,7 +3,7 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ![badge](https://img.shields.io/badge/license-${data.license}-brightblue)<br />
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
   ${data.description}
@@ -24,7 +24,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  ![badge](https://img.shields.io/badge/license-${data.license}-brightblue)<br />
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   App covered by the ${data.license} license.
 
   ## Contribution
