@@ -19,7 +19,7 @@ This app is a command-line application that runs using Node.js. The point of the
 
 # Video Walkthrough
 
-[Demo](https://drive.google.com/drive/my-drive)
+[Demo](https://drive.google.com/file/d/1SZYVSsPSCnc_u_wbEVNqppODZayWinnr/view?usp=sharing)
 
 # Resources
 
