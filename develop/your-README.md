@@ -1,37 +1,37 @@
-# README File
+# professional README-Gen
 
-  ![badge](https://img.shields.io/badge/license-Apache 2.0-brightblue)<br />
+  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
-  app that generates readme files using node
+  app ran through with node js
 
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
-  - [Contributing](#contributing)
-  - [Testing](#testing)
+  - [Contributing](#contribution)
+  - [Testing](#test)
   - [Questions](#questions)
 
   ## Installation
-  npm install and clone
+  clone repo
 
   ## Usage
-  idk yet
+  clone repo and follow prompt to auto generate readme
 
   ## License
-  ![badge](https://img.shields.io/badge/license-Apache 2.0-brightblue)<br />
-  App covered by the Apache 2.0 license.
+  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+  App covered by the MIT license.
 
   ## Contribution
-  eys
+  yes, send email to email below
 
   ## Testing
-  node index.js
+  answer questions and prompt
 
   ## Screenshot
-  ok
+  screenshot added
 
   ## Contact Information
   -Github: fraancellaa
