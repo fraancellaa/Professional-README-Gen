@@ -19,7 +19,7 @@ This app is a command-line application that runs using Node.js. The point of the
 
 # Video Walkthrough
 
-[https://drive.google.com/file/d/1SZYVSsPSCnc_u_wbEVNqppODZayWinnr/view?usp=sharing](url)
+README.md Generator (1).mp4
 
 # Resources
 
