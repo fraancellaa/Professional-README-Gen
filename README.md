@@ -17,6 +17,10 @@ This app is a command-line application that runs using Node.js. The point of the
 <img width="1440" alt="Screen Shot 2022-02-27 at 6 51 42 PM" src="https://user-images.githubusercontent.com/95050386/155905429-38874d31-2211-43b1-9f7a-a90902bab75c.png">
 <img width="1440" alt="Screen Shot 2022-02-27 at 6 51 56 PM" src="https://user-images.githubusercontent.com/95050386/155905445-6f0095b6-9222-464e-8f5c-8cefbb3bb864.png">
 
+# Video Walkthrough
+
+chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files
+
 # Resources
 
 1. Module 9 - UM CANVAS
