@@ -19,7 +19,7 @@ This app is a command-line application that runs using Node.js. The point of the
 
 # Video Walkthrough
 
-chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files
+[chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files](url)
 
 # Resources
 
